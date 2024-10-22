@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap');
+
+:root{
+    --body-color:rgb(250, 250, 250);
+    --color-white:rgb(255, 255, 255);
+
+    --text-color-second:rgb(68, 68, 68);
+    --text-color-third:rgb(30, 159, 171);
+
+    --first-color:rgb(110, 87, 244);
+    --first-color-hover:rgb(40, 91, 212);
+
+    --second-color:rgb(0, 201, 255);
+    --third-color:rgb(192, 166, 49);
+    --first-shadow-color:rgb(0, 0, 0, 0.1);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section#about img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+section#about p {
+    text-align: center;
+    font-size: 1.1em;
+}
+.image{
+   
+    border-radius: 55% 45% 55% 45%;
+}
+
+section#contact p {
+    text-align: center;
+    font-size: 1.1em;
+}
+.social_icons{
+    display: flex;
+    margin-top: 5em;
+    gap: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.icon:hover{
+    color: var(--first-color);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
